@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html {
     font-family: Avenir, sans-serif;
@@ -6,6 +6,14 @@ html {
 
 h1 {
     text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 500;
 }
 
 .bold {
@@ -14,9 +22,9 @@ h1 {
 
 .colors {
     width: auto;
-    height: 300px;
+    height: auto;
     margin: 10px 20px;
-    padding: 25px;
+    padding: 20px;
     border: solid 2px gray;
 }
 
@@ -25,7 +33,7 @@ h1 {
     height: 30%;
     display: inline-block;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 10px;
 }
 
@@ -35,16 +43,22 @@ h1 {
 
 .fonts {
     width: auto;
-    height: 500px;
+    height: auto;
     margin: auto 20px;
-    padding: 25px;
+    padding: 20px;
     border: solid 2px gray;
 }
 
 .fonts .fonts-list {
     display: inline-block;
-    height: 50%;
+    height: 30%;
     width: auto;
+    margin-right: 20px;
+}
+
+.fonts .font-name {
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .italics {
@@ -52,19 +66,19 @@ h1 {
 }
 
 .text-styles {
-    height: 400px;
+    height: auto;
     width: auto;
     border: solid 2px gray;
     margin: 10px 20px;
-    padding: 25px;
+    padding: 20px;
 }
 
-#comfortaa {
-    font-family: Comfortaa, cursive;
+#opens-sans {
+    font-family: "Open Sans", sans-serif;
 }
 
 #mint-box {
-    background-color: rgb(129, 224, 193);
+    background-color: rgb(168, 245, 219);
 }
 
 #dusty-rose-box {
@@ -73,4 +87,19 @@ h1 {
 
 #ivory-box {
     background-color: rgb(238, 238, 221);
+}
+
+#main-heading {
+    font-weight: 800px;
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#slate-gray-box {
+    background-color: rgb(94, 88, 88);
+}
+
+#subheading {
+    font-weight: 500;
+    font-size: 26px;
 }

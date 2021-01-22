@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Website Design System</title>
+        <title>Website Style Guide</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
 
@@ -12,8 +12,11 @@
         </header>
         <div class="colors">
             <h2>Colors</h2>
+            <div id="slate-gray-box" class="colors-list">
+                <p class="colors-center">Slate Gray<br>#5E5858</p>
+            </div>
             <div id="mint-box" class="colors-list">
-                <p class="colors-center">Mint<br>#81E0C1</p>
+                <p class="colors-center">Mint<br>#A8F5DB</p>
             </div>
             <div id="dusty-rose-box" class="colors-list">
                 <p class="colors-center">Dusty Rose<br>#F5D1CD</p>
@@ -21,32 +24,50 @@
             <div id="ivory-box" class="colors-list">
                 <p class="colors-center">Ivory<br>#EEEEDD</p>
             </div>
-            <p class="description">Description here</p>
         </div>
+
         <div class="fonts">
             <h2>Fonts</h2>
             <div id="avenir" class="fonts-list">
-                <h3>Avenir</h3>
-                <br>
+                <p class="font-name">Avenir</p>
                 <p class="regular">The quick brown fox jumps over the lazy dog.</p>
-                <br>
                 <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-                <br>
                 <p class="italics">The quick brown fox jumps over the lazy dog.</p>
             </div>
-            <div id="comfortaa" class="fonts-list">
-                <h3>Comfortaa</h3>
-                <br>
+            <div id="open-sans" class="fonts-list">
+                <p class="font-name">Open Sans</p>
                 <p class="regular">The quick brown fox jumps over the lazy dog.</p>
-                <br>
                 <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-                <br>
                 <p class="italics">The quick brown fox jumps over the lazy dog.</p>
             </div>
         </div>
         <div class="text-styles">
             <h2>Text Styles</h2>
-            <div>H1: Main Page Heading</div>
+            <div class="main-style">
+                <p id="main-heading">H1: Main Page Heading</p>
+                <ul>
+                    <li>Font-weight: 800</li>
+                    <li>Font-size: 36px</li>
+                    <li>Font-family: Open Sans</li>
+                </ul>
+            </div>
+            <div class="subheading-style">
+                <p id="subheading">H2: Subheading</p>
+                <ul>
+                    <li>Font-weight: 500</li>
+                    <li>Font-size: 26px</li>
+                    <li>Font-family: Avenir</li>
+                </ul>
+            </div>
+            <div class="paragraph-style">
+                <p id="paragraph">P: Paragraph Text</p>
+                <ul>
+                    <li>Font-weight: 400</li>
+                    <li>Font-size: 16px</li>
+                    <li>Font-family: Avenir</li>
+                </ul>
+            </div>
+
         </div>
     </body>
 </html>
