@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato&display=swap');
+
+html {
+    font-family: Avenir, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.colors {
+    width: auto;
+    height: 300px;
+    margin: 10px 20px;
+    padding: 25px;
+    border: solid 2px gray;
+}
+
+.colors .colors-list{
+    width: 20%;
+    height: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.colors .colors-center {
+    text-align: center;
+}
+
+.fonts {
+    width: auto;
+    height: 500px;
+    margin: auto 20px;
+    padding: 25px;
+    border: solid 2px gray;
+}
+
+.fonts .fonts-list {
+    display: inline-block;
+}
+
+.italics {
+    font-style: italic;
+}
+
+#comfortaa {
+    font-family: Comfortaa, cursive;
+}
+
+#mint-box {
+    background-color: rgb(129, 224, 193);
+}
+
+#dusty-rose-box {
+    background-color: rgb(245, 209, 205);
+}
+
+#ivory-box {
+    background-color: rgb(238, 238, 221);
+}
