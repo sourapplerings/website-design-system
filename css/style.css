@@ -43,10 +43,20 @@ h1 {
 
 .fonts .fonts-list {
     display: inline-block;
+    height: 50%;
+    width: auto;
 }
 
 .italics {
     font-style: italic;
+}
+
+.text-styles {
+    height: 400px;
+    width: auto;
+    border: solid 2px gray;
+    margin: 10px 20px;
+    padding: 25px;
 }
 
 #comfortaa {
